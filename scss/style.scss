@@ -1,0 +1,15 @@
+//ne pas oublier dans le bash npm run sass
+//lors d'un ctrl + s le style scss est tranformé en css
+//lors de la mise en place sur un hebergement on ne transfert que le style.css
+//attention on n'ecrit rien directement dans le css
+// reset
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+// pour le test et la mise en forme
+.test {
+  border: 1px solid red;
+}
